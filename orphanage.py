@@ -12,7 +12,7 @@ MYSQL_USER = 'root'
 MYSQL_PASSWORD = '19122004'
 MYSQL_DATABASE = 'orphanage'
 
-
+#function to check credentials
 def check_credentials(username, password):
     try:
         # Connect to MySQL and fetch the stored credentials
